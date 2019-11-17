@@ -1,0 +1,114 @@
+{
+  "configVersion": 1,
+  "timestamp": 1573963757558,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.c5844635b4140f50040b.js",
+        "/manifest.webmanifest",
+        "/polyfills-es5.026c7d97df2efbb610a8.js",
+        "/polyfills.1c9a6ee6914890989655.js",
+        "/runtime.a8ef3a8272419c2e2c66.js",
+        "/styles.79ba19c6df4c3f7d8551.js",
+        "/styles.f04180094db7ba9f1d72.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/anime.min.js",
+        "/assets/background1.jpg",
+        "/assets/fonts/Roboto-Bold.ttf",
+        "/assets/fonts/Roboto-Italic.ttf",
+        "/assets/fonts/Roboto-Light.ttf",
+        "/assets/fonts/Roboto-Medium.ttf",
+        "/assets/fonts/Roboto-Regular.ttf",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/bg-img.jpg",
+        "/assets/img/dheeru.jp2",
+        "/assets/img/dheeru.jpg",
+        "/assets/img/dheeru.png",
+        "/assets/particles.min.js",
+        "/assets/particlesjs-config.json",
+        "/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/anime.min.js": "3c46c9597c721644a515c1c54ab13f46406657f7",
+    "/assets/background1.jpg": "dcf6e970c2c6b8816e7f96502fabacdd77f1204b",
+    "/assets/fonts/Roboto-Bold.ttf": "47327df0f35e7cd7c8645874897a7449697544ae",
+    "/assets/fonts/Roboto-Italic.ttf": "493e74f72fac5d61e8dfc9bb1ff0a278ee584750",
+    "/assets/fonts/Roboto-Light.ttf": "e321c183e2b75ee19813892b7bac8d7c411cb88a",
+    "/assets/fonts/Roboto-Medium.ttf": "6060ca726b9760b76f7c347dce9d2fa1fe42ec92",
+    "/assets/fonts/Roboto-Regular.ttf": "824b5480c977a8166e177e5357d13164ccc45f47",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img/bg-img.jpg": "c23ffe02e7b5b4365f2fbc80996f769b8163f336",
+    "/assets/img/dheeru.jp2": "0c54c27519af7a6c30e529f07774e929305e8809",
+    "/assets/img/dheeru.jpg": "376d079d893b8411996f305c82c82afe69da5f1a",
+    "/assets/img/dheeru.png": "9eb9715fe891687e8c7dd9a7bb7f382f1adb3e72",
+    "/assets/particles.min.js": "8017f8b1869077db728573f1ca4684a00af69462",
+    "/assets/particlesjs-config.json": "a7ff01218b3c0fc865eb10042e56a8cc255dfcc5",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/index.html": "dd16237ba1678f16fc7e7ee943dfb9f1ed13fd82",
+    "/main.c5844635b4140f50040b.js": "ed7856c8970d6d463ffaedf8ef11217bff777f8a",
+    "/manifest.webmanifest": "94888a892291b59fe28e11d237df9f1633c94261",
+    "/polyfills-es5.026c7d97df2efbb610a8.js": "43a91b8d623b8265c3671ed8888e5da06870a7a1",
+    "/polyfills.1c9a6ee6914890989655.js": "a21062bebc5610b4372b6638679b27dddb98a350",
+    "/runtime.a8ef3a8272419c2e2c66.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.79ba19c6df4c3f7d8551.js": "c8462f94d17cf6aa12d2419e417e73e0600e06dd",
+    "/styles.f04180094db7ba9f1d72.css": "7f7d6d75e311ff03c06b18f933850431bd932c9c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
