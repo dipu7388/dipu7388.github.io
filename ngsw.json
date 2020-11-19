@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1605794424505,
+  "timestamp": 1605797672380,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.7970767760fdbd543f87.js",
+        "/main.69e57192a25c854a999b.js",
         "/manifest.webmanifest",
         "/polyfills.bf99d438b005d57b2b31.js",
         "/runtime.359d5ee4682f20e936e9.js",
         "/scripts.604b9406ec0c67ab5f41.js",
-        "/styles.be2fe926dbb7c962e11f.css",
+        "/styles.738be75f620c95af8771.css",
         "/vendor.29367d368228a6edaccc.js"
       ],
       "patterns": []
@@ -53,14 +53,19 @@
         "/assets/img/form-1aa.pdf",
         "/assets/img/profile-pic.png",
         "/assets/particles.min.js",
-        "/assets/particlesjs-config.json"
+        "/assets/particlesjs-config.json",
+        "/fontawesome-webfont.eot",
+        "/fontawesome-webfont.svg",
+        "/fontawesome-webfont.ttf",
+        "/fontawesome-webfont.woff",
+        "/fontawesome-webfont.woff2"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/Dheerendra's_Resume.pdf": "f15ec3bdc1cdf746140dc71c051fa979d3b74e15",
+    "/assets/Dheerendra's_Resume.pdf": "40fe276fb2b0ade11b0014738146a328a1a14b51",
     "/assets/anime.min.js": "3c46c9597c721644a515c1c54ab13f46406657f7",
     "/assets/background1.jpg": "5d3d90d8cdbcb086bd4d7fe3c717df0eed65d3d1",
     "/assets/fonts/Roboto-Bold.ttf": "47327df0f35e7cd7c8645874897a7449697544ae",
@@ -84,13 +89,18 @@
     "/assets/particles.min.js": "8017f8b1869077db728573f1ca4684a00af69462",
     "/assets/particlesjs-config.json": "a7ff01218b3c0fc865eb10042e56a8cc255dfcc5",
     "/favicon.ico": "fd243b0d4069c5bf86065722c08927826e45d96f",
-    "/index.html": "449a84572b1f52e498337e351be06b385d842998",
-    "/main.7970767760fdbd543f87.js": "35e61a87c473accf40019fbf01f529ce550f92ce",
+    "/fontawesome-webfont.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/fontawesome-webfont.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/index.html": "7c2b14581fbf4fbf3c2764a8e3db020da015db5e",
+    "/main.69e57192a25c854a999b.js": "4cdea0c4657fef54d4a45a7aefe916f85d54b8e8",
     "/manifest.webmanifest": "5f60c21a143000abb4c9d2c0fe03e805ab2395c9",
     "/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/runtime.359d5ee4682f20e936e9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.604b9406ec0c67ab5f41.js": "7bb09e0adf48ebee0a8cffef70189a49425c3ecb",
-    "/styles.be2fe926dbb7c962e11f.css": "dda27c733728b1a6b539c1ed8e943afb23d3bbee",
+    "/styles.738be75f620c95af8771.css": "519a8e95fb80f379f6a3171af79e243bafa967e1",
     "/vendor.29367d368228a6edaccc.js": "4f34fa1c9010443d0d9afe14b7be5c098a18eaac"
   },
   "navigationUrls": [
