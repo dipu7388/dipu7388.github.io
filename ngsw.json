@@ -1,23 +1,25 @@
 {
   "configVersion": 1,
-  "timestamp": 1587922377532,
+  "timestamp": 1605794424505,
   "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.91dac78c365004f4c6d1.js",
+        "/main.7970767760fdbd543f87.js",
         "/manifest.webmanifest",
-        "/polyfills-es5.026c7d97df2efbb610a8.js",
-        "/polyfills.1c9a6ee6914890989655.js",
-        "/runtime.a8ef3a8272419c2e2c66.js",
-        "/styles.a517fbd6e4041db02dbd.js",
-        "/styles.f2675d56ca38833dc073.css",
-        "/vendor.13a8749c87c69b7038d9.js"
+        "/polyfills.bf99d438b005d57b2b31.js",
+        "/runtime.359d5ee4682f20e936e9.js",
+        "/scripts.604b9406ec0c67ab5f41.js",
+        "/styles.be2fe926dbb7c962e11f.css",
+        "/vendor.29367d368228a6edaccc.js"
       ],
       "patterns": []
     },
@@ -25,6 +27,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/assets/Dheerendra's_Resume.pdf",
         "/assets/anime.min.js",
@@ -48,26 +53,16 @@
         "/assets/img/form-1aa.pdf",
         "/assets/img/profile-pic.png",
         "/assets/particles.min.js",
-        "/assets/particlesjs-config.json",
-        "/fontawesome-webfont.eot",
-        "/fontawesome-webfont.svg",
-        "/fontawesome-webfont.ttf",
-        "/fontawesome-webfont.woff",
-        "/fontawesome-webfont.woff2",
-        "/glyphicons-halflings-regular.eot",
-        "/glyphicons-halflings-regular.svg",
-        "/glyphicons-halflings-regular.ttf",
-        "/glyphicons-halflings-regular.woff",
-        "/glyphicons-halflings-regular.woff2"
+        "/assets/particlesjs-config.json"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/Dheerendra's_Resume.pdf": "e7667b54adc63ad517f23973c11d9d4114cb6275",
+    "/assets/Dheerendra's_Resume.pdf": "f15ec3bdc1cdf746140dc71c051fa979d3b74e15",
     "/assets/anime.min.js": "3c46c9597c721644a515c1c54ab13f46406657f7",
-    "/assets/background1.jpg": "dcf6e970c2c6b8816e7f96502fabacdd77f1204b",
+    "/assets/background1.jpg": "5d3d90d8cdbcb086bd4d7fe3c717df0eed65d3d1",
     "/assets/fonts/Roboto-Bold.ttf": "47327df0f35e7cd7c8645874897a7449697544ae",
     "/assets/fonts/Roboto-Italic.ttf": "493e74f72fac5d61e8dfc9bb1ff0a278ee584750",
     "/assets/fonts/Roboto-Light.ttf": "e321c183e2b75ee19813892b7bac8d7c411cb88a",
@@ -80,34 +75,23 @@
     "/assets/icons/Icon-512.png": "35726de1d02e7526ea1185bd9a659c75f3fb1c73",
     "/assets/icons/Icon-72.png": "a7800e3984d3dbb8e0d749027408d753ed13e309",
     "/assets/icons/Icon-96.png": "1a6bcc69de64cd0a0984c739c51bb96558a2e11a",
-    "/assets/img/bg-img.jpg": "c23ffe02e7b5b4365f2fbc80996f769b8163f336",
+    "/assets/img/bg-img.jpg": "1cf340d479b6b4e032b92990c0fb53866016b487",
     "/assets/img/dheeru.jp2": "0c54c27519af7a6c30e529f07774e929305e8809",
-    "/assets/img/dheeru.jpg": "376d079d893b8411996f305c82c82afe69da5f1a",
-    "/assets/img/dheeru.png": "9eb9715fe891687e8c7dd9a7bb7f382f1adb3e72",
+    "/assets/img/dheeru.jpg": "465d431bfaeaf33b02a6faaaac76dec61a0fded1",
+    "/assets/img/dheeru.png": "0fe7924f5455cd3ba8ee641d374e1cadd31c7d9e",
     "/assets/img/form-1aa.pdf": "14787cc1e5b91c120a4e588a6c5a9ddfb58997f7",
-    "/assets/img/profile-pic.png": "bcea7c3ced3266c031d5c6f2aee327aed864b734",
+    "/assets/img/profile-pic.png": "69c94ba8baccc1f4ae39d9b225e4818e612c607b",
     "/assets/particles.min.js": "8017f8b1869077db728573f1ca4684a00af69462",
     "/assets/particlesjs-config.json": "a7ff01218b3c0fc865eb10042e56a8cc255dfcc5",
     "/favicon.ico": "fd243b0d4069c5bf86065722c08927826e45d96f",
-    "/fontawesome-webfont.eot": "d980c2ce873dc43af460d4d572d441304499f400",
-    "/fontawesome-webfont.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
-    "/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
-    "/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
-    "/glyphicons-halflings-regular.eot": "86b6f62b7853e67d3e635f6512a5a5efc58ea3c3",
-    "/glyphicons-halflings-regular.svg": "de51a8494180a6db074af2dee2383f0a363c5b08",
-    "/glyphicons-halflings-regular.ttf": "44bc1850f570972267b169ae18f1cb06b611ffa2",
-    "/glyphicons-halflings-regular.woff": "278e49a86e634da6f2a02f3b47dd9d2a8f26210f",
-    "/glyphicons-halflings-regular.woff2": "ca35b697d99cae4d1b60f2d60fcd37771987eb07",
-    "/index.html": "c59ce522613b562b19594436d871ad2fc34446cf",
-    "/main.91dac78c365004f4c6d1.js": "bb1c231fb1fcda82f3248e62bde17d7c7dc3ede1",
-    "/manifest.webmanifest": "93aa3123bd374bed108d7fab62509fcee87dde33",
-    "/polyfills-es5.026c7d97df2efbb610a8.js": "43a91b8d623b8265c3671ed8888e5da06870a7a1",
-    "/polyfills.1c9a6ee6914890989655.js": "a21062bebc5610b4372b6638679b27dddb98a350",
-    "/runtime.a8ef3a8272419c2e2c66.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.a517fbd6e4041db02dbd.js": "76c20df7ec7ceac7b06065f992e4109923df8f5e",
-    "/styles.f2675d56ca38833dc073.css": "cfb85d97d0aea1815cff8fab14d7b929833c583f",
-    "/vendor.13a8749c87c69b7038d9.js": "dd590ed0b38c57f3b5359eefaf6a6f01a17b0100"
+    "/index.html": "449a84572b1f52e498337e351be06b385d842998",
+    "/main.7970767760fdbd543f87.js": "35e61a87c473accf40019fbf01f529ce550f92ce",
+    "/manifest.webmanifest": "5f60c21a143000abb4c9d2c0fe03e805ab2395c9",
+    "/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/runtime.359d5ee4682f20e936e9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/scripts.604b9406ec0c67ab5f41.js": "7bb09e0adf48ebee0a8cffef70189a49425c3ecb",
+    "/styles.be2fe926dbb7c962e11f.css": "dda27c733728b1a6b539c1ed8e943afb23d3bbee",
+    "/vendor.29367d368228a6edaccc.js": "4f34fa1c9010443d0d9afe14b7be5c098a18eaac"
   },
   "navigationUrls": [
     {
@@ -126,5 +110,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
