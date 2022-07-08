@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1605797672380,
+  "timestamp": 1657252120888,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,13 +13,13 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.69e57192a25c854a999b.js",
+        "/main.9e8a785feb0894c2.js",
         "/manifest.webmanifest",
-        "/polyfills.bf99d438b005d57b2b31.js",
-        "/runtime.359d5ee4682f20e936e9.js",
-        "/scripts.604b9406ec0c67ab5f41.js",
-        "/styles.738be75f620c95af8771.css",
-        "/vendor.29367d368228a6edaccc.js"
+        "/polyfills.0a2d0bb06333c92f.js",
+        "/runtime.bdb7e1a3271ba200.js",
+        "/scripts.6de47a6f90a33715.js",
+        "/styles.ed8f423412e31f61.css",
+        "/vendor.c50faf98c58e7ead.js"
       ],
       "patterns": []
     },
@@ -48,10 +48,8 @@
         "/assets/icons/Icon-96.png",
         "/assets/img/bg-img.jpg",
         "/assets/img/dheeru.jp2",
-        "/assets/img/dheeru.jpg",
         "/assets/img/dheeru.png",
-        "/assets/img/form-1aa.pdf",
-        "/assets/img/profile-pic.png",
+        "/assets/img/home-page-pic.jpeg",
         "/assets/particles.min.js",
         "/assets/particlesjs-config.json",
         "/fontawesome-webfont.eot",
@@ -65,7 +63,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/Dheerendra's_Resume.pdf": "40fe276fb2b0ade11b0014738146a328a1a14b51",
+    "/assets/Dheerendra's_Resume.pdf": "a8a670a9ec998c59e8df1a33e726a57ff9bf3512",
     "/assets/anime.min.js": "3c46c9597c721644a515c1c54ab13f46406657f7",
     "/assets/background1.jpg": "5d3d90d8cdbcb086bd4d7fe3c717df0eed65d3d1",
     "/assets/fonts/Roboto-Bold.ttf": "47327df0f35e7cd7c8645874897a7449697544ae",
@@ -82,10 +80,8 @@
     "/assets/icons/Icon-96.png": "1a6bcc69de64cd0a0984c739c51bb96558a2e11a",
     "/assets/img/bg-img.jpg": "1cf340d479b6b4e032b92990c0fb53866016b487",
     "/assets/img/dheeru.jp2": "0c54c27519af7a6c30e529f07774e929305e8809",
-    "/assets/img/dheeru.jpg": "465d431bfaeaf33b02a6faaaac76dec61a0fded1",
-    "/assets/img/dheeru.png": "0fe7924f5455cd3ba8ee641d374e1cadd31c7d9e",
-    "/assets/img/form-1aa.pdf": "14787cc1e5b91c120a4e588a6c5a9ddfb58997f7",
-    "/assets/img/profile-pic.png": "69c94ba8baccc1f4ae39d9b225e4818e612c607b",
+    "/assets/img/dheeru.png": "e42ab20f43add4283cece5c73b014b6685195e11",
+    "/assets/img/home-page-pic.jpeg": "3dabdc99add3140f7241f71c45199d53355db6e1",
     "/assets/particles.min.js": "8017f8b1869077db728573f1ca4684a00af69462",
     "/assets/particlesjs-config.json": "a7ff01218b3c0fc865eb10042e56a8cc255dfcc5",
     "/favicon.ico": "fd243b0d4069c5bf86065722c08927826e45d96f",
@@ -94,14 +90,14 @@
     "/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
     "/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
     "/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
-    "/index.html": "7c2b14581fbf4fbf3c2764a8e3db020da015db5e",
-    "/main.69e57192a25c854a999b.js": "4cdea0c4657fef54d4a45a7aefe916f85d54b8e8",
+    "/index.html": "0da4c2bd4d84a7e14d910b965db0f26252944c91",
+    "/main.9e8a785feb0894c2.js": "ef111fb7fd4e3f4386f13532bbd9ab4dc64bdfd6",
     "/manifest.webmanifest": "5f60c21a143000abb4c9d2c0fe03e805ab2395c9",
-    "/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "/runtime.359d5ee4682f20e936e9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/scripts.604b9406ec0c67ab5f41.js": "7bb09e0adf48ebee0a8cffef70189a49425c3ecb",
-    "/styles.738be75f620c95af8771.css": "519a8e95fb80f379f6a3171af79e243bafa967e1",
-    "/vendor.29367d368228a6edaccc.js": "4f34fa1c9010443d0d9afe14b7be5c098a18eaac"
+    "/polyfills.0a2d0bb06333c92f.js": "615cf409089bfcddc4c9391c60bd08d1fbba7acf",
+    "/runtime.bdb7e1a3271ba200.js": "c1db7689448685d5d022a82acfc499a84072a1ad",
+    "/scripts.6de47a6f90a33715.js": "861e48b43b46af2aeffae84ae37aadea7216fc3e",
+    "/styles.ed8f423412e31f61.css": "f1745731597285b98211855a6d8c536263e901d3",
+    "/vendor.c50faf98c58e7ead.js": "f1d8cbf96830e6a41e3d41e5826e6d9e2d3476d3"
   },
   "navigationUrls": [
     {
