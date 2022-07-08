@@ -1,344 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <base href="/" />
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <base href="/">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"> -->
+  
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+  <script src="assets/particles.min.js"></script>
+  <script src="assets/anime.min.js"></script>
 
-    <link rel="manifest" href="manifest.webmanifest" />
-    <meta name="theme-color" content="#1976d2" />
-    <script src="assets/particles.min.js"></script>
-    <script src="assets/anime.min.js"></script>
-
-    <script>
-      window.fbAsyncInit = function () {
+  <script>
+      window.fbAsyncInit = function() {
         FB.init({
-          appId: "583650742381395",
-          cookie: true,
-          xfbml: true,
-          version: "v5.0",
+          appId      : '583650742381395',
+          cookie     : true,
+          xfbml      : true,
+          version    : 'v5.0'
         });
 
         FB.AppEvents.logPageView();
+
       };
 
-      (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {
-          return;
-        }
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "facebook-jssdk");
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=UA-152753691-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-152753691-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag("config", "UA-152753691-1");
-    </script>
-    <!-- Meta tahs Start -->
+  gtag('config', 'UA-152753691-1');
+</script>
+<!-- Meta tahs Start -->
 
-    <!-- Primary Meta Tags -->
-    <title>Dheerendra Kumar Singh | Web Developer | Software Engineer</title>
-    <meta
-      name="title"
-      content="Dheerendra Kumar Singh | FrontEnd Developer | Software Engineer"
-    />
-    <meta
-      name="description"
-      content="Software Developer with 4+ years of experience in front-end. Proficient in front-end technologies, eg. Angular, Javascript, SPA, PWA, responsiveness etc . In possession of Master’s degree from University of Delhi."
-    />
+<!-- Primary Meta Tags -->
+<title>Dheerendra Kumar Singh | Web Developer | Software Engineer</title>
+<meta name="title" content="Dheerendra Kumar Singh | FrontEnd Developer | Software Engineer">
+<meta name="description" content="Software Developer with 2+ years of experience in front-end. Proficient in front-end technologies, eg. Angular, Javascript, SPA, PWA, responsiveness etc . In possession of Master’s degree from University of Delhi.">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dipu7388.github.io/" />
-    <meta
-      property="og:title"
-      content="Dheerendra Kumar Singh | FrontEnd Developer | Software Engineer"
-    />
-    <meta property="og:description" content="" />
-    <meta
-      property="og:image"
-      content="https://dipu7388.github.io/assets/img/profile-pic.png"
-    />
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dipu7388.github.io/">
+<meta property="og:title" content="Dheerendra Kumar Singh | FrontEnd Developer | Software Engineer">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://dipu7388.github.io/assets/img/profile-pic.png">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://dipu7388.github.io/" />
-    <meta
-      property="twitter:title"
-      content="Dheerendra Kumar Singh | FrontEnd Developer | Software Engineer"
-    />
-    <meta
-      property="twitter:description"
-      content="Software Developer with 2+ years of experience in front-end. Proficient in front-end technologies, eg. Angular, Javascript, SPA, PWA, responsiveness etc . In possession of Master’s degree from University of Delhi."
-    />
-    <meta
-      property="twitter:image"
-      content="https://dipu7388.github.io/assets/img/profile-pic.png"
-    />
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://dipu7388.github.io/">
+<meta property="twitter:title" content="Dheerendra Kumar Singh | FrontEnd Developer | Software Engineer">
+<meta property="twitter:description" content="Software Developer with 4+ years of experience in front-end. Proficient in front-end technologies, eg. Angular, Javascript, SPA, PWA, responsiveness etc . In possession of Master’s degree from University of Delhi.">
+<meta property="twitter:image" content="https://dipu7388.github.io/assets/img/profile-pic.png">
 
-    <!-- Meta Tags Ends -->
-    <style>
-      @import "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700";
-      @import "https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700";
-      * {
-        -webkit-user-select: text !important;
-        user-select: text !important;
-        -moz-user-select: text !important;
-      }
-      * {
-        transition: all linear;
-      }
-      .preloader .loading-text span:before {
-        color: #ff9800 !important;
-      }
-      body {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        box-sizing: border-box;
-        height: 100%;
-        overflow: auto;
-        font-family: Roboto Regular, Open Sans, sans-serif;
-        font-size: 16px;
-        line-height: 1.65;
-        color: #e1e1e1;
-        background-color: #040404;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-      * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        list-style: none !important;
-        outline: none !important;
-      }
-      *:after,
-      *:before {
-        box-sizing: border-box;
-      }
-      @font-face {
-        font-family: Roboto Regular;
-        font-style: normal;
-        font-weight: 400;
-        src: local("Roboto"), local("Roboto-Regular"),
-          url(/assets/fonts/Roboto-Regular.ttf) format("truetype");
-      }
-      * {
-        font-family: Roboto Regular;
-        -webkit-user-select: none;
-        user-select: none;
-      }
-      html {
-        height: 100%;
-      }
-      body {
-        margin: 0;
-        font-family: Roboto, Helvetica Neue, sans-serif;
-        height: 100%;
-      }
-      .preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #2a2b30;
-        z-index: 9999;
-      }
-      .loading-text span {
-        display: inline-block;
-        position: relative;
-        overflow: hidden;
-        color: #000;
-        font-size: 22px;
-      }
-      .loading-text {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        text-align: center;
-        width: 100%;
-        height: 100px;
-        line-height: 100px;
-      }
-      * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        list-style: none !important;
-        outline: none !important;
-      }
-      *:after,
-      *:before {
-        box-sizing: border-box;
-      }
-      html,
-      body {
-        overflow: hidden;
-        height: 100vh;
-      }
-      body {
-        font-family: Open Sans, sans-serif;
-        font-size: 16px;
-        line-height: 1.65;
-        color: #e1e1e1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-      span {
-        display: inline-block;
-      }
-      .preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #2a2b30;
-        z-index: 9999;
-      }
-      .loading-text {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        text-align: center;
-        width: 100%;
-        height: 100px;
-        line-height: 100px;
-      }
-      .loading-text span {
-        display: inline-block;
-        position: relative;
-        overflow: hidden;
-        color: #000;
-        font-size: 22px;
-      }
-      .loading-text span:before {
-        content: attr(data-preloader);
-        position: absolute;
-        top: 0;
-        left: 0;
-        color: #e1e1e1;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-fill-mode: backwards;
-        animation-name: preload-animation;
-      }
-      .loading-text span:nth-child(2):before {
-        animation-delay: 0.2s;
-      }
-      .loading-text span:nth-child(3):before {
-        animation-delay: 0.4s;
-      }
-      .loading-text span:nth-child(4):before {
-        animation-delay: 0.6s;
-      }
-      .loading-text span:nth-child(5):before {
-        animation-delay: 0.8s;
-      }
-      .loading-text span:nth-child(6):before {
-        animation-delay: 1s;
-      }
-      .loading-text span:nth-child(7):before {
-        animation-delay: 1.2s;
-      }
-      @keyframes preload-animation {
-        0%,
-        to {
-          transform: rotateY(-90deg) scale(1);
-          opacity: 0;
-        }
-        20%,
-        50% {
-          transform: rotateY(0) scale(1);
-          opacity: 1;
-        }
-        75% {
-          transform: rotateY(0) scale(1.2);
-          opacity: 0;
-        }
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="styles.ed8f423412e31f61.css"
-      crossorigin="anonymous"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript
-      ><link rel="stylesheet" href="styles.ed8f423412e31f61.css"
-    /></noscript>
-  </head>
+<!-- Meta Tags Ends -->
+<style>@import"https://fonts.googleapis.com/css?family=Open+Sans:400,600,700";@import"https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700";*{-webkit-user-select:text!important;user-select:text!important;-moz-user-select:text!important}*{transition:all linear}.preloader .loading-text span:before{color:#ff9800!important}body{padding:0;margin:0;width:100%;box-sizing:border-box;height:100%;overflow:auto;font-family:Roboto Regular,Open Sans,sans-serif;font-size:16px;line-height:1.65;color:#e1e1e1;background-color:#040404;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*{box-sizing:border-box;padding:0;margin:0;list-style:none!important;outline:none!important}*:after,*:before{box-sizing:border-box}@font-face{font-family:Roboto Regular;font-style:normal;font-weight:400;src:local("Roboto"),local("Roboto-Regular"),url(/assets/fonts/Roboto-Regular.ttf) format("truetype")}*{font-family:Roboto Regular;-webkit-user-select:none;user-select:none}html{height:100%}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif;height:100%}.preloader{position:fixed;top:0;left:0;width:100%;height:100%;background:#2a2b30;z-index:9999}.loading-text span{display:inline-block;position:relative;overflow:hidden;color:#000;font-size:22px}.loading-text{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;text-align:center;width:100%;height:100px;line-height:100px}*{box-sizing:border-box;padding:0;margin:0;list-style:none!important;outline:none!important}*:after,*:before{box-sizing:border-box}html,body{overflow:hidden;height:100vh}body{font-family:Open Sans,sans-serif;font-size:16px;line-height:1.65;color:#e1e1e1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}span{display:inline-block}.preloader{position:fixed;top:0;left:0;width:100%;height:100%;background:#2a2b30;z-index:9999}.loading-text{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;text-align:center;width:100%;height:100px;line-height:100px}.loading-text span{display:inline-block;position:relative;overflow:hidden;color:#000;font-size:22px}.loading-text span:before{content:attr(data-preloader);position:absolute;top:0;left:0;color:#e1e1e1;animation-duration:3s;animation-iteration-count:infinite;animation-fill-mode:backwards;animation-name:preload-animation}.loading-text span:nth-child(2):before{animation-delay:.2s}.loading-text span:nth-child(3):before{animation-delay:.4s}.loading-text span:nth-child(4):before{animation-delay:.6s}.loading-text span:nth-child(5):before{animation-delay:.8s}.loading-text span:nth-child(6):before{animation-delay:1s}.loading-text span:nth-child(7):before{animation-delay:1.2s}@keyframes preload-animation{0%,to{transform:rotateY(-90deg) scale(1);opacity:0}20%,50%{transform:rotateY(0) scale(1);opacity:1}75%{transform:rotateY(0) scale(1.2);opacity:0}}</style><link rel="stylesheet" href="styles.ed8f423412e31f61.css" crossorigin="anonymous" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.ed8f423412e31f61.css"></noscript></head>
 
-  <body>
-    <dk-root>
-      <dk-loading>
-        <div class="preloader">
-          <div class="loading-text">
-            <span class="loading-text-words" data-preloader="L">L</span>
-            <span class="loading-text-words" data-preloader="O">O</span>
-            <span class="loading-text-words" data-preloader="A">A</span>
-            <span class="loading-text-words" data-preloader="D">D</span>
-            <span class="loading-text-words" data-preloader="I">I</span>
-            <span class="loading-text-words" data-preloader="N">N</span>
-            <span class="loading-text-words" data-preloader="G">G</span>
-          </div>
+<body>
+  <dk-root>
+
+    <dk-loading>
+      <div class="preloader">
+        <div class="loading-text">
+          <span class="loading-text-words" data-preloader="L">L</span>
+          <span class="loading-text-words" data-preloader="O">O</span>
+          <span class="loading-text-words" data-preloader="A">A</span>
+          <span class="loading-text-words" data-preloader="D">D</span>
+          <span class="loading-text-words" data-preloader="I">I</span>
+          <span class="loading-text-words" data-preloader="N">N</span>
+          <span class="loading-text-words" data-preloader="G">G</span>
         </div>
-      </dk-loading>
-    </dk-root>
-    <noscript
-      >Please enable JavaScript to continue using this application.</noscript
-    >
-    <script
-      src="runtime.bdb7e1a3271ba200.js"
-      type="module"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="polyfills.0a2d0bb06333c92f.js"
-      type="module"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="scripts.6de47a6f90a33715.js"
-      defer
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="vendor.c50faf98c58e7ead.js"
-      type="module"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="main.9e8a785feb0894c2.js"
-      type="module"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+      </div>
+    </dk-loading>
+  </dk-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.bdb7e1a3271ba200.js" type="module" crossorigin="anonymous"></script><script src="polyfills.0a2d0bb06333c92f.js" type="module" crossorigin="anonymous"></script><script src="scripts.6de47a6f90a33715.js" defer crossorigin="anonymous"></script><script src="vendor.c50faf98c58e7ead.js" type="module" crossorigin="anonymous"></script><script src="main.9e8a785feb0894c2.js" type="module" crossorigin="anonymous"></script>
+
+
+</body></html>

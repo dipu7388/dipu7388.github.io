@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1657252120888,
+  "timestamp": 1657253169038,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -50,6 +50,7 @@
         "/assets/img/dheeru.jp2",
         "/assets/img/dheeru.png",
         "/assets/img/home-page-pic.jpeg",
+        "/assets/img/profile-pic.png",
         "/assets/particles.min.js",
         "/assets/particlesjs-config.json",
         "/fontawesome-webfont.eot",
@@ -82,6 +83,7 @@
     "/assets/img/dheeru.jp2": "0c54c27519af7a6c30e529f07774e929305e8809",
     "/assets/img/dheeru.png": "e42ab20f43add4283cece5c73b014b6685195e11",
     "/assets/img/home-page-pic.jpeg": "3dabdc99add3140f7241f71c45199d53355db6e1",
+    "/assets/img/profile-pic.png": "41b01896db62455760745ca29032c7558057c661",
     "/assets/particles.min.js": "8017f8b1869077db728573f1ca4684a00af69462",
     "/assets/particlesjs-config.json": "a7ff01218b3c0fc865eb10042e56a8cc255dfcc5",
     "/favicon.ico": "fd243b0d4069c5bf86065722c08927826e45d96f",
@@ -90,7 +92,7 @@
     "/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
     "/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
     "/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
-    "/index.html": "0da4c2bd4d84a7e14d910b965db0f26252944c91",
+    "/index.html": "b162a9b74d1880213e7360e0cd56b700ea80de75",
     "/main.9e8a785feb0894c2.js": "ef111fb7fd4e3f4386f13532bbd9ab4dc64bdfd6",
     "/manifest.webmanifest": "5f60c21a143000abb4c9d2c0fe03e805ab2395c9",
     "/polyfills.0a2d0bb06333c92f.js": "615cf409089bfcddc4c9391c60bd08d1fbba7acf",
